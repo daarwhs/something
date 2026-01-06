@@ -1,0 +1,11 @@
+/* ============================================
+   ЭЛЕМЕНТ: header__nav
+   ============================================ */
+
+.header__nav {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 0 var(--spacing-4);
+}
+
