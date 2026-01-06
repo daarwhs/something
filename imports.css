@@ -1,0 +1,224 @@
+/* ============================================
+   Nested BEM CSS Imports
+   ============================================ */
+
+/* Page block */
+@import url('page/page.css');
+
+/* Header block */
+@import url('header/header.css');
+@import url('header/header__container.css');
+@import url('header/header__logo.css');
+@import url('header/header__logo-icon.css');
+@import url('header/header__logo-text.css');
+@import url('header/header__nav.css');
+@import url('header/header__nav-list.css');
+@import url('header/header__nav-item.css');
+@import url('header/header__nav-link.css');
+@import url('header/header__nav-link--active.css');
+@import url('header/header__actions.css');
+@import url('header/header__button-emergency.css');
+@import url('header/header__menu-toggle.css');
+@import url('header/header__menu-icon.css');
+
+/* Hero block */
+@import url('hero/hero.css');
+@import url('hero/hero__container.css');
+@import url('hero/hero__content.css');
+@import url('hero/hero__text-block.css');
+@import url('hero/hero__title.css');
+@import url('hero/hero__title-highlight.css');
+@import url('hero/hero__text.css');
+@import url('hero/hero__buttons.css');
+@import url('hero/hero__button.css');
+@import url('hero/hero__button--primary.css');
+@import url('hero/hero__button--secondary.css');
+@import url('hero/hero__button-icon.css');
+@import url('hero/hero__warning.css');
+@import url('hero/hero__warning-icon.css');
+@import url('hero/hero__warning-text.css');
+@import url('hero/hero__decoration.css');
+@import url('hero/hero__circle.css');
+@import url('hero/hero__circle--1.css');
+@import url('hero/hero__circle--2.css');
+@import url('hero/hero__circle--3.css');
+
+/* Main block */
+@import url('main/main.css');
+
+/* Section title block */
+@import url('section-title/section-title.css');
+@import url('section-title/section-title__heading.css');
+@import url('section-title/section-title__icon.css');
+@import url('section-title/section-title__text.css');
+
+/* Welcome section block */
+@import url('welcome-section/welcome-section.css');
+@import url('welcome-section/welcome-section__container.css');
+@import url('welcome-section/welcome-section__layout.css');
+@import url('welcome-section/welcome-section__left.css');
+@import url('welcome-section/welcome-section__right.css');
+@import url('welcome-section/welcome-section__title.css');
+@import url('welcome-section/welcome-section__text.css');
+@import url('welcome-section/welcome-section__image-wrapper.css');
+@import url('welcome-section/welcome-section__image.css');
+
+/* Quick access block */
+@import url('quick-access/quick-access.css');
+@import url('quick-access/quick-access__header.css');
+@import url('quick-access/quick-access__title.css');
+@import url('quick-access/quick-access__subtitle.css');
+@import url('quick-access/quick-access__grid.css');
+@import url('quick-access/quick-access__card.css');
+@import url('quick-access/quick-access__card-icon.css');
+@import url('quick-access/quick-access__card-title.css');
+
+/* Articles preview block */
+@import url('articles-preview/articles-preview.css');
+@import url('articles-preview/articles-preview__header.css');
+@import url('articles-preview/articles-preview__title.css');
+@import url('articles-preview/articles-preview__subtitle.css');
+@import url('articles-preview/articles-preview__link-all.css');
+@import url('articles-preview/articles-preview__grid.css');
+
+/* Article card block */
+@import url('article-card/article-card.css');
+@import url('article-card/article-card__image.css');
+@import url('article-card/article-card__content.css');
+@import url('article-card/article-card__category.css');
+@import url('article-card/article-card__title.css');
+@import url('article-card/article-card__title-link.css');
+@import url('article-card/article-card__excerpt.css');
+@import url('article-card/article-card__meta.css');
+@import url('article-card/article-card__date.css');
+@import url('article-card/article-card__read-time.css');
+
+/* Stats block */
+@import url('stats/stats.css');
+@import url('stats/stats__container.css');
+@import url('stats/stats__title.css');
+@import url('stats/stats__subtitle.css');
+@import url('stats/stats__grid.css');
+@import url('stats/stats__item.css');
+@import url('stats/stats__number.css');
+@import url('stats/stats__description.css');
+
+/* Privacy block */
+@import url('privacy/privacy.css');
+@import url('privacy/privacy__container.css');
+@import url('privacy/privacy__content.css');
+@import url('privacy/privacy__title.css');
+@import url('privacy/privacy__cards.css');
+@import url('privacy/privacy__card.css');
+@import url('privacy/privacy__card-icon.css');
+@import url('privacy/privacy__card-title.css');
+@import url('privacy/privacy__card-text.css');
+
+/* Modal block */
+@import url('modal/modal.css');
+@import url('modal/modal__overlay.css');
+@import url('modal/modal__container.css');
+@import url('modal/modal__header.css');
+@import url('modal/modal__title.css');
+@import url('modal/modal__close.css');
+@import url('modal/modal__body.css');
+@import url('modal/modal--emergency.css');
+@import url('modal/modal--exercise.css');
+
+/* Footer block */
+@import url('footer/footer.css');
+@import url('footer/footer__container.css');
+@import url('footer/footer__main.css');
+@import url('footer/footer__text.css');
+
+/* Tests header block */
+@import url('tests-header/tests-header.css');
+@import url('tests-header/tests-header__title.css');
+@import url('tests-header/tests-header__subtitle.css');
+@import url('tests-header/tests-header__warning.css');
+
+/* Tests grid block */
+@import url('tests-grid/tests-grid.css');
+
+/* Test card block */
+@import url('test-card/test-card.css');
+@import url('test-card/test-card__image-wrapper.css');
+@import url('test-card/test-card__image-wrapper--has-image.css');
+@import url('test-card/test-card__image.css');
+@import url('test-card/test-card__header.css');
+@import url('test-card/test-card__title.css');
+@import url('test-card/test-card__content.css');
+@import url('test-card/test-card__description.css');
+@import url('test-card/test-card__details.css');
+@import url('test-card/test-card__footer.css');
+@import url('test-card/test-card__button.css');
+@import url('test-card/test-card--anxiety.css');
+@import url('test-card/test-card--burnout.css');
+@import url('test-card/test-card--sleep.css');
+@import url('test-card/test-card--procrastination.css');
+@import url('test-card/test-card--stress.css');
+
+/* Exercise card block */
+@import url('exercise-card/exercise-card.css');
+@import url('exercise-card/exercise-card__image-wrapper.css');
+@import url('exercise-card/exercise-card__image-wrapper--has-image.css');
+@import url('exercise-card/exercise-card__image.css');
+@import url('exercise-card/exercise-card__title.css');
+@import url('exercise-card/exercise-card__description.css');
+@import url('exercise-card/exercise-card__button.css');
+@import url('exercise-card/exercise-card__button--pause.css');
+@import url('exercise-card/exercise-card__button--restart.css');
+@import url('exercise-card/exercise-card__button--resume.css');
+@import url('exercise-card/exercise-card__timer-circle.css');
+@import url('exercise-card/exercise-card__timer-svg.css');
+@import url('exercise-card/exercise-card__timer-bg.css');
+@import url('exercise-card/exercise-card__timer-progress.css');
+@import url('exercise-card/exercise-card__timer-display.css');
+@import url('exercise-card/exercise-card__timer-phase.css');
+@import url('exercise-card/exercise-card__timer-seconds.css');
+@import url('exercise-card/exercise-card__timer-stop.css');
+
+/* Exercise modal block */
+@import url('exercise-modal/exercise-modal.css');
+@import url('exercise-modal/exercise-modal__description.css');
+@import url('exercise-modal/exercise-modal__instruction.css');
+@import url('exercise-modal/exercise-modal__timer.css');
+@import url('exercise-modal/exercise-modal__actions.css');
+
+/* Emergency contacts block */
+@import url('emergency-contacts/emergency-contacts.css');
+
+/* Emergency contact block */
+@import url('emergency-contact/emergency-contact.css');
+@import url('emergency-contact/emergency-contact__title.css');
+@import url('emergency-contact/emergency-contact__phone.css');
+@import url('emergency-contact/emergency-contact__description.css');
+
+/* Emergency actions block */
+@import url('emergency-actions/emergency-actions.css');
+
+/* Emergency action block */
+@import url('emergency-action/emergency-action.css');
+
+/* Site controls block */
+@import url('site-controls/site-controls.css');
+@import url('site-controls/site-controls__btn.css');
+@import url('site-controls/site-controls__btn--visible.css');
+@import url('site-controls/site-controls__btn--scroll-top.css');
+@import url('site-controls/site-controls__btn--exit.css');
+
+/* ============================================
+   NEW BLOCKS (REDESIGN)
+   ============================================ */
+
+/* Main Hero (New) */
+@import url('main-hero/main-hero.css');
+
+/* State Selection */
+@import url('state-selection/state-selection.css');
+
+/* Features Grid */
+@import url('features-grid/features-grid.css');
+
+/* Animations */
+@import url('animations.css');

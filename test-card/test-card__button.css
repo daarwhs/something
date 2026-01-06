@@ -1,0 +1,35 @@
+/* ============================================
+   ЭЛЕМЕНТ: test-card__button
+   ============================================ */
+
+.test-card__button {
+    width: 100% !important;
+    background: linear-gradient(135deg, #9CAF88 0%, #8B9E76 100%) !important;
+    color: white !important;
+    border: 2px solid #8B9E76 !important;
+    padding: var(--spacing-5) var(--spacing-8) !important;
+    border-radius: var(--radius-xl) !important;
+    font-family: sans-serif !important;
+    font-weight: 700 !important;
+    font-size: var(--font-size-lg) !important;
+    cursor: pointer !important;
+    transition: all var(--transition-normal) !important;
+    box-shadow: 0 4px 12px rgba(156, 175, 136, 0.3) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    display: block !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+}
+
+.test-card__button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px rgba(156, 175, 136, 0.4) !important;
+    background: linear-gradient(135deg, #8B9E76 0%, #7A8D64 100%) !important;
+    border-color: #6B7F5C !important;
+}
+
+.test-card__button:active {
+    transform: translateY(0);
+}
